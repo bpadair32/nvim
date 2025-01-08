@@ -1,8 +1,6 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
-vim.opt.guicursor = ""
-
 vim.opt.number = true
 vim.opt.relativenumber = true
 
@@ -33,3 +31,5 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 vim.opt.conceallevel = 2
 
+vim.opt.guicursor = "n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20"
+vim.opt.cursorline = true

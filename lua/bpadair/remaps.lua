@@ -41,3 +41,6 @@ vim.api.nvim_create_autocmd("TextYankPost", {
   pattern  = "*",
   callback = function() vim.highlight.on_yank { timeout = 200 } end
 })
+
+-- Neo-tree
+vim.keymap.set("n", "<leader>e", "<cmd>Neotree toggle<CR>", { desc = "Toggle NeoTree" })
