@@ -10,7 +10,7 @@ return {
     workspaces = {
       {
         name = "brad",
-        path = "~/repos/obsidian/brad/",
+        path = "/Users/brad.adair/Library/Mobile Documents/iCloud~md~obsidian/Documents/brad/",
       },
     },
     daily_notes = {
